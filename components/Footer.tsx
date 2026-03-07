@@ -9,8 +9,8 @@ export default function Footer() {
             © {new Date().getFullYear()} Toán Tư Duy MMABC.
           </div>
           <div>
-            Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội · Điện thoại:{" "}
-            <a href="tel:0912345678">0912 345 678</a>
+            Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội · Điện thoại:{" "}
+            <a href="tel:0825797789">0825 797 789</a>
           </div>
         </div>
         <div className="footer-links">

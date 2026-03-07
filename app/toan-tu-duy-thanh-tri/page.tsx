@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Toán Tư Duy Thanh Trì | Trung Tâm Toán Tư Duy MMABC",
   description:
-    "Trung tâm toán tư duy Thanh Trì MMABC tại Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội. Lớp toán tư duy cho trẻ 4–14 tuổi, thuận tiện cho phụ huynh khu vực Thanh Trì.",
+    "Trung tâm toán tư duy Thanh Trì MMABC tại Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội. Lớp toán tư duy cho trẻ 4–14 tuổi, thuận tiện cho phụ huynh khu vực phía Nam Hà Nội.",
   keywords: [
     "toán tư duy thanh trì",
     "trung tâm toán tư duy thanh trì",
@@ -36,13 +36,13 @@ export default function ThanhTriPage() {
               <div>
                 <div className="info-item-label">Địa chỉ</div>
                 <div>
-                  Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội
+                  Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội
                 </div>
               </div>
               <div>
                 <div className="info-item-label">Số điện thoại</div>
                 <div>
-                  <a href="tel:0912345678">0912 345 678</a>
+                  <a href="tel:0825797789">0825 797 789</a>
                 </div>
               </div>
               <div>
@@ -105,14 +105,14 @@ export default function ThanhTriPage() {
                 <div>
                   <div className="info-item-label">Điện thoại</div>
                   <div>
-                    <a href="tel:0912345678">0912 345 678</a>
+                    <a href="tel:0825797789">0825 797 789</a>
                   </div>
                 </div>
                 <div>
                   <div className="info-item-label">Zalo</div>
                   <div className="muted">
                     Kết nối Zalo với số{" "}
-                    <a href="tel:0912345678">0912 345 678</a> để được tư vấn
+                    <a href="tel:0825797789">0825 797 789</a> để được tư vấn
                     nhanh.
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default function ThanhTriPage() {
             <div className="map-placeholder">
               <iframe
                 title="Bản đồ Toán Tư Duy MMABC Thanh Trì"
-                src="https://www.google.com/maps?q=Th%C3%B4n%201%20V%E1%BA%A1n%20Ph%C3%BAc%20Thanh%20Tr%C3%AC%20H%C3%A0%20N%E1%BB%99i&output=embed"
+                src="https://www.google.com/maps?q=Khu+đấu+giá+Đông+Mỹ,+xã+Nam+Phù,+Thành+phố+Hà+Nội&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{

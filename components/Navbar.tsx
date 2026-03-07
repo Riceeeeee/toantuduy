@@ -41,10 +41,8 @@ export default function Navbar() {
             <div className="navbar-logo-inner">M</div>
           </div>
           <div className="navbar-title">
-            <span className="navbar-title-main">Toán Tư Duy MMABC</span>
-            <span className="navbar-title-sub">
-              Thanh Trì, Hà Nội · 4–14 tuổi
-            </span>
+            <span className="navbar-title-main">Toán Tư Duy</span>
+            <span className="navbar-title-sub">MMABC · Thanh Trì, Hà Nội</span>
           </div>
         </Link>
 

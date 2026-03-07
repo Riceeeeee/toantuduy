@@ -19,7 +19,7 @@ export default function AboutPage() {
         <h1 className="section-title">Giới thiệu Trung tâm Toán Tư Duy MMABC</h1>
         <p className="section-subtitle">
           Toán Tư Duy MMABC là trung tâm chuyên về toán tư duy cho trẻ từ 4–14
-          tuổi tại Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội. Mục tiêu của
+          tuổi tại Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội. Mục tiêu của
           chúng tôi là giúp trẻ yêu thích môn Toán, phát triển tư duy logic và
           tự tin hơn trong học tập.
         </p>

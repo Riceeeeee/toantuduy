@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Toán Tư Duy MMABC | Lớp Toán Tư Duy Cho Trẻ 4-14 Tuổi",
   description:
-    "Trung tâm Toán Tư Duy MMABC tại Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội. Giúp trẻ phát triển tư duy logic, tăng tập trung và tính nhẩm nhanh.",
+    "Trung tâm Toán Tư Duy MMABC tại Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội. Giúp trẻ phát triển tư duy logic, tăng tập trung và tính nhẩm nhanh.",
   keywords: [
     "toán tư duy",
     "toán tư duy MMABC",

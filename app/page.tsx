@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import CourseCard from "@/components/CourseCard";
@@ -6,7 +7,7 @@ import CourseCard from "@/components/CourseCard";
 export const metadata: Metadata = {
   title: "Toán Tư Duy MMABC | Lớp Toán Tư Duy Cho Trẻ 4-14 Tuổi",
   description:
-    "Trung tâm Toán Tư Duy MMABC tại Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội. Chương trình toán tư duy cho trẻ 4–14 tuổi, tăng tập trung, phát triển tư duy logic và rèn luyện tính nhẩm nhanh.",
+    "Trung tâm Toán Tư Duy MMABC tại Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội. Chương trình toán tư duy cho trẻ 4–14 tuổi, tăng tập trung, phát triển tư duy logic và rèn luyện tính nhẩm nhanh.",
   keywords: [
     "toán tư duy",
     "toán tư duy cho bé",
@@ -21,6 +22,16 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <div className="home-top-banner">
+        <Image
+          src="/mmabc-banner-home.jpg"
+          alt="Toán tư duy & luyện chữ đẹp MMABC cơ sở Vạn Phúc"
+          className="home-top-banner-image"
+          width={1440}
+          height={240}
+          priority
+        />
+      </div>
       <HeroSection />
 
       <section className="section">
@@ -160,7 +171,7 @@ export default function HomePage() {
             <div className="local-highlight">
               Địa chỉ trung tâm:{" "}
               <span>
-                Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội
+                Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội
               </span>
             </div>
           </div>

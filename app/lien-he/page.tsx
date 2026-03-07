@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Liên Hệ Trung Tâm Toán Tư Duy MMABC",
   description:
-    "Liên hệ Trung tâm Toán Tư Duy MMABC tại Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội. Đăng ký học thử toán tư duy cho trẻ 4–14 tuổi.",
+    "Liên hệ Trung tâm Toán Tư Duy MMABC tại Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội. Đăng ký học thử toán tư duy cho trẻ 4–14 tuổi.",
   keywords: [
     "liên hệ toán tư duy",
     "đăng ký học toán tư duy",
@@ -34,13 +34,13 @@ export default function ContactPage() {
               <div>
                 <div className="info-item-label">Địa chỉ</div>
                 <div>
-                  Thôn 1, Xã Vạn Phúc, Huyện Thanh Trì, Hà Nội
+                  Khu đấu giá Đông Mỹ, Xã Nam Phù, Thành phố Hà Nội
                 </div>
               </div>
               <div>
                 <div className="info-item-label">Số điện thoại</div>
                 <div>
-                  <a href="tel:0912345678">0912 345 678</a>
+                  <a href="tel:0825797789">0825 797 789</a>
                 </div>
               </div>
               <div>
@@ -109,7 +109,7 @@ export default function ContactPage() {
           <div className="map-placeholder">
             <iframe
               title="Bản đồ Trung tâm Toán Tư Duy MMABC"
-              src="https://www.google.com/maps?q=Th%C3%B4n%201%20V%E1%BA%A1n%20Ph%C3%BAc%20Thanh%20Tr%C3%AC%20H%C3%A0%20N%E1%BB%99i&output=embed"
+              src="https://www.google.com/maps?q=Khu+đấu+giá+Đông+Mỹ,+xã+Nam+Phù,+Thành+phố+Hà+Nội&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               style={{ border: 0, width: "100%", height: "100%", borderRadius: 16 }}

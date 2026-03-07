@@ -56,6 +56,17 @@ a {
   padding-top: 80px;
 }
 
+.home-top-banner {
+  width: 100%;
+  background-color: #e5f0ff;
+}
+
+.home-top-banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .container {
   width: 100%;
   max-width: 1120px;
@@ -218,7 +229,7 @@ a {
 }
 
 .hero {
-  padding: 56px 0 40px;
+  padding: 24px 0 40px;
 }
 
 .hero-inner {
@@ -1084,6 +1095,28 @@ a {
 
   .hero-title {
     font-size: 28px;
+  }
+
+  .navbar-inner {
+    height: 60px;
+  }
+
+  .navbar-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .navbar-title-main {
+    font-size: 15px;
+  }
+
+  .navbar-title-sub {
+    display: none;
+  }
+
+  .navbar-actions .btn {
+    padding: 8px 14px;
+    font-size: 14px;
   }
 
   .hero-card {
