@@ -1,30 +1,97 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/app/_not-found/page-1fe41d8df168b155.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/css/a2a89b9e035aaf56.css",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/layout-6bdcb413141065da.js"
     ],
-    "/toan-tu-duy-11-14-tuoi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/toan-tu-duy-11-14-tuoi/page.js"
+    "/luyen-toan-tu-duy/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/app/luyen-toan-tu-duy/page-f8272275e6782216.js"
+    ],
+    "/khoa-hoc-toan-tu-duy/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/khoa-hoc-toan-tu-duy/page-bddf7ad5177faae3.js"
     ],
     "/lien-he/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/lien-he/page.js"
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/app/lien-he/page-a23cd3be0aca097e.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/blog/page-41b7087de37281bb.js"
+    ],
+    "/toan-tu-duy-11-14-tuoi/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/toan-tu-duy-11-14-tuoi/page-c2685f400985cf66.js"
+    ],
+    "/gioi-thieu/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/app/gioi-thieu/page-26a9f110300ef12c.js"
+    ],
+    "/toan-tu-duy-4-6-tuoi/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/toan-tu-duy-4-6-tuoi/page-103ac9cf212c71c3.js"
+    ],
+    "/toan-tu-duy-7-10-tuoi/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/toan-tu-duy-7-10-tuoi/page-91a428e6d135c177.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/page-661c0fa95ddae0d8.js"
     ],
     "/toan-tu-duy-thanh-tri/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/toan-tu-duy-thanh-tri/page.js"
+      "static/chunks/webpack-6956dcac8326fe2b.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-f2c2ec5da154e115.js",
+      "static/chunks/main-app-d9a301b87444e37a.js",
+      "static/chunks/231-87925b9c7247c60f.js",
+      "static/chunks/app/toan-tu-duy-thanh-tri/page-c97a65bd1d9b6649.js"
     ]
   }
 }

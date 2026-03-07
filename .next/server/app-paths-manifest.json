@@ -1,6 +1,14 @@
 {
-  "/toan-tu-duy-11-14-tuoi/page": "app/toan-tu-duy-11-14-tuoi/page.js",
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/luyen-toan-tu-duy/page": "app/luyen-toan-tu-duy/page.js",
+  "/khoa-hoc-toan-tu-duy/page": "app/khoa-hoc-toan-tu-duy/page.js",
   "/lien-he/page": "app/lien-he/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/toan-tu-duy-11-14-tuoi/page": "app/toan-tu-duy-11-14-tuoi/page.js",
+  "/gioi-thieu/page": "app/gioi-thieu/page.js",
+  "/toan-tu-duy-4-6-tuoi/page": "app/toan-tu-duy-4-6-tuoi/page.js",
+  "/toan-tu-duy-7-10-tuoi/page": "app/toan-tu-duy-7-10-tuoi/page.js",
+  "/page": "app/page.js",
   "/toan-tu-duy-thanh-tri/page": "app/toan-tu-duy-thanh-tri/page.js"
 }
