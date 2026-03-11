@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const links = [
   { href: "/", label: "Trang chủ" },
@@ -16,22 +16,6 @@ const links = [
 export default function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const savedTheme =
-      (window.localStorage.getItem("mmabc-theme") as "light" | "dark" | null) ??
-      "light";
-    setTheme(savedTheme);
-    document.documentElement.setAttribute("data-theme", savedTheme);
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    document.documentElement.setAttribute("data-theme", theme);
-    window.localStorage.setItem("mmabc-theme", theme);
-  }, [theme]);
 
   return (
     <header className="navbar">
@@ -72,20 +56,6 @@ export default function Navbar() {
         </nav>
 
         <div className="navbar-actions">
-          <button
-            type="button"
-            aria-label="Chuyển chế độ sáng/tối"
-            className="theme-toggle"
-            onClick={() =>
-              setTheme((prev) => (prev === "light" ? "dark" : "light"))
-            }
-          >
-            <div
-              className={`theme-toggle-thumb ${
-                theme === "dark" ? "dark" : ""
-              }`}
-            />
-          </button>
           <Link href="/lien-he" className="btn btn-primary">
             Đăng ký học thử
           </Link>

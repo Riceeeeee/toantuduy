@@ -43,8 +43,6 @@ export default function HeroSection() {
         <div className="hero-media">
           <div className="hero-card">
             <div className="hero-shape">
-              <div className="hero-shape-circle small" />
-              <div className="hero-shape-circle large" />
             </div>
             <div className="hero-card-header">
               <div>
@@ -83,7 +81,7 @@ export default function HeroSection() {
             </div>
             <div className="hero-floating-card">
               <span className="hero-floating-pill">100% vui học</span>
-              <span>Tự tin trước môn Toán</span>
+              <span className="hero-floating-pill">Tự tin trước môn Toán</span>
             </div>
             <div className="hero-decoration">
               <span />

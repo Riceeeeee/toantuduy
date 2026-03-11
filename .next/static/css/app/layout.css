@@ -150,7 +150,7 @@ a {
 }
 
 .card {
-  background-color: var(--color-bg-alt);
+  background: linear-gradient(135deg, #e0f7fa, #e8eaf6);
   border-radius: 24px;
   padding: 24px;
   box-shadow: var(--shadow-soft);
@@ -185,7 +185,8 @@ a {
 .pill-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
+  align-items: center;
 }
 
 .muted {
@@ -301,10 +302,11 @@ a {
 .hero-card {
   position: relative;
   border-radius: 32px;
-  padding: 28px 28px 24px;
-  background: radial-gradient(circle at top left, #1d4ed8 0, #312e81 40%, #020617 100%);
-  color: #e5e7eb;
-  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.8);
+  padding: 28px 28px 30px;
+  min-height: 400px;
+  background: linear-gradient(135deg, #4a90e2, #8a2be2);
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   z-index: 0;
 }
@@ -334,6 +336,7 @@ a {
   grid-gap: 16px;
   gap: 16px;
   margin-top: 8px;
+  margin-bottom: 56px;
 }
 
 .hero-card > *:not(.hero-shape) {
@@ -388,22 +391,31 @@ a {
 
 .hero-floating-card {
   position: absolute;
-  bottom: 1px;
-  left: 20px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background-color: rgba(15, 23, 42, 0.8);
+  bottom: 24px;
+  right: 28px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   gap: 8px;
   font-size: 12px;
+  pointer-events: none;
+}
+
+.hero-card .hero-floating-card {
+  z-index: 0;
 }
 
 .hero-floating-pill {
-  padding: 2px 8px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
   border-radius: 999px;
-  background-color: rgba(37, 99, 235, 0.9);
-  font-size: 11px;
+  background-color: rgba(15, 23, 42, 0.85);
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  font-size: 12px;
 }
 
 .hero-card .muted {
@@ -508,13 +520,14 @@ a {
 
 .cta-box {
   border-radius: 24px;
-  padding: 24px;
-  background: linear-gradient(135deg, #4f46e5, #2563eb);
-  color: #e5e7eb;
+  padding: 32px;
+  background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 48%, #2563eb 100%);
+  color: #ffffff;
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
+  gap: 20px;
+  align-items: stretch;
 }
 
 .cta-box-row {
@@ -526,8 +539,101 @@ a {
 .cta-badge {
   padding: 6px 12px;
   border-radius: 999px;
-  background-color: rgba(15, 23, 42, 0.55);
+  background-color: rgba(15, 23, 42, 0.7);
   font-size: 12px;
+}
+
+.cta-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-top-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cta-level {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: rgba(15, 23, 42, 0.65);
+  font-size: 13px;
+}
+
+.cta-box-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 40px;
+  gap: 40px;
+  align-items: center;
+}
+
+.cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+  align-items: stretch;
+}
+
+.cta-bottom {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 40px;
+  gap: 40px;
+  align-items: end;
+}
+
+.cta-bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cta-brand {
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  position: absolute;
+  right: 24px;
+  bottom: 56px;
+  pointer-events: none;
+}
+
+.cta-right-note {
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 360px;
+}
+
+.cta-box .pill-highlight {
+  background-color: rgba(15, 23, 42, 0.85);
+  color: #ffffff;
+}
+
+.cta-box .btn-outline {
+  border-color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
+}
+.cta-box .btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+}
+.cta-box .btn-primary {
+  box-shadow: 0 12px 25px rgba(250, 181, 22, 0.35);
+}
+.cta-box h2 {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.cta-box p {
+  color: rgba(255, 255, 255, 0.92);
+}
+.cta-box .local-highlight {
+  color: rgba(255, 255, 255, 0.85);
+}
+.cta-box .local-highlight span {
+  color: #f97316;
 }
 
 .navbar {
@@ -631,34 +737,6 @@ a {
   border: none;
   background: none;
   font-size: 22px;
-}
-
-.theme-toggle {
-  width: 38px;
-  height: 22px;
-  border-radius: 999px;
-  border: 1px solid var(--color-border);
-  padding: 2px;
-  background-color: #f9fafb;
-  display: flex;
-  align-items: center;
-}
-
-[data-theme="dark"] .theme-toggle {
-  background-color: #020617;
-}
-
-.theme-toggle-thumb {
-  width: 16px;
-  height: 16px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #f97316, #facc15);
-  transition: transform 0.2s ease;
-}
-
-.theme-toggle-thumb.dark {
-  transform: translateX(14px);
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
 }
 
 .footer {
@@ -963,10 +1041,20 @@ a {
 }
 
 .pill-highlight {
-  padding: 4px 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
   border-radius: 999px;
   background-color: var(--color-primary-soft);
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+
+.pill-highlight:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .hero-card .pill-highlight {
@@ -1100,6 +1188,17 @@ a {
   .practice-controls {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+
+  /* Tablet responsive for cta-box */
+  .cta-box-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .cta-bottom {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1143,6 +1242,51 @@ a {
 
   .hero-card-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  /* Responsive cta-box */
+  .cta-box {
+    padding: 24px 20px;
+    align-items: stretch;
+  }
+
+  .cta-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .cta-box-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .cta-bottom {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .cta-bottom-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .cta-brand {
+    position: static;
+    margin-top: 8px;
+    align-self: flex-end;
+  }
+
+  .cta-box h2 {
+    font-size: 20px !important;
+  }
+
+  .cta-right-note {
+    margin-bottom: 8px !important;
   }
 }
 

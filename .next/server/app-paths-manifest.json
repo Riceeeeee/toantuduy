@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/khoa-hoc-toan-tu-duy/page": "app/khoa-hoc-toan-tu-duy/page.js",
   "/page": "app/page.js",
   "/luyen-toan-tu-duy/page": "app/luyen-toan-tu-duy/page.js",
   "/blog/page": "app/blog/page.js",
   "/toan-tu-duy-thanh-tri/page": "app/toan-tu-duy-thanh-tri/page.js",
-  "/lien-he/page": "app/lien-he/page.js",
   "/icon.svg/route": "app/icon.svg/route.js"
 }

@@ -148,25 +148,59 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="cta-box">
-            <div className="cta-box-row">
-              <span className="cta-badge">Học thử miễn phí 1 buổi</span>
-              <span className="cta-badge">Sĩ số nhỏ · Tối đa 10 bé/lớp</span>
+            <div className="cta-top">
+              <div className="pill-row">
+                <span className="pill-highlight">Tăng tập trung</span>
+                <span className="pill-highlight">Tính nhẩm nhanh</span>
+              </div>
+              <div className="cta-top-right">
+                <span className="cta-level">Mức độ: Dễ · Trung bình</span>
+                <span className="hero-badge">
+                  <span className="hero-badge-dot" />
+                  15 phút luyện mỗi ngày
+                </span>
+              </div>
             </div>
-            <h2 style={{ fontSize: 24, fontWeight: 800, margin: 0 }}>
-              Đăng ký học thử Toán Tư Duy MMABC cho con ngay hôm nay
-            </h2>
-            <p style={{ margin: 0, maxWidth: 520 }}>
-              Đội ngũ giáo viên tận tâm, giáo trình dễ hiểu, môi trường học vui
-              nhộn giúp trẻ yêu thích môn Toán, không còn sợ sai và sẵn sàng
-              thử thách bản thân.
-            </p>
-            <div className="cta-box-row">
-              <Link href="/lien-he" className="btn btn-primary">
-                Đăng ký lịch học thử
-              </Link>
-              <Link href="/khoa-hoc-toan-tu-duy" className="btn btn-outline">
-                Tìm hiểu chi tiết chương trình
-              </Link>
+            <div className="cta-box-layout">
+              <div>
+                <h2 style={{ fontSize: 24, fontWeight: 800, margin: 0 }}>
+                  Đăng ký học thử Toán Tư Duy MMABC cho con ngay hôm nay
+                </h2>
+                <p style={{ margin: 0, maxWidth: 520 }}>
+                  Đội ngũ giáo viên tận tâm, giáo trình dễ hiểu, môi trường học vui
+                  nhộn giúp trẻ yêu thích môn Toán, không còn sợ sai và sẵn sàng
+                  thử thách bản thân.
+                </p>
+              </div>
+              <div>
+                <div className="cta-right-note" style={{ marginBottom: 12 }}>
+                  Trải nghiệm ngay công cụ luyện toán tư duy online của MMABC.
+                </div>
+                <Link href="/luyen-toan-tu-duy" className="btn hero-cta">
+                  Luyện toán ngay
+                </Link>
+              </div>
+            </div>
+            <div className="cta-bottom">
+              <div className="cta-box-row">
+                <span className="cta-badge">Học thử miễn phí 1 buổi</span>
+                <span className="cta-badge">Sĩ số nhỏ · Tối đa 10 bé/lớp</span>
+              </div>
+              <div className="cta-actions">
+                <Link href="/lien-he" className="btn btn-primary">
+                  Đăng ký lịch học thử
+                </Link>
+                <Link href="/khoa-hoc-toan-tu-duy" className="btn btn-outline">
+                  Tìm hiểu chi tiết chương trình
+                </Link>
+              </div>
+              <div className="cta-bottom-right">
+                <div className="pill-row">
+                  <span className="pill-highlight">100% vui học</span>
+                  <span className="pill-highlight">Tự tin môn Toán</span>
+                </div>
+                <div className="cta-brand">MMABC</div>
+              </div>
             </div>
             <div className="local-highlight">
               Địa chỉ trung tâm:{" "}
