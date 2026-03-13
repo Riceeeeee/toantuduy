@@ -45,7 +45,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <div className="info-item-label">Email</div>
-                <div>mmabc.toantuduy@gmail.com</div>
+                <div>mmabcdongmy@gmail.com</div>
               </div>
             </div>
 

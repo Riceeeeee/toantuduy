@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -22,7 +23,13 @@ export default function Navbar() {
       <div className="container navbar-inner">
         <Link href="/" className="navbar-brand">
           <div className="navbar-logo">
-            <div className="navbar-logo-inner">M</div>
+            <Image
+              src="/logo.png"
+              alt="Logo Toán Tư Duy MMABC"
+              width={40}
+              height={40}
+              className="navbar-logo-inner"
+            />
           </div>
           <div className="navbar-title">
             <span className="navbar-title-main">Toán Tư Duy</span>
