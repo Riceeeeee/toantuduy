@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "toán tư duy vạn phúc",
     "trung tâm toán tư duy",
   ],
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

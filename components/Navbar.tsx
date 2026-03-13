@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
           <div className="navbar-title">
             <span className="navbar-title-main">Toán Tư Duy</span>
-            <span className="navbar-title-sub">MMABC · Thanh Trì, Hà Nội</span>
+            <span className="navbar-title-sub">MMABC · Đông Mỹ, Hà Nội</span>
           </div>
         </Link>
 
